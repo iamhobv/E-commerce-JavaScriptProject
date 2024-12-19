@@ -1,0 +1,50 @@
+/* Reset and base styles */
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* form style */
+#formHeader {
+  text-align: center;
+}
+#formParagraph {
+  text-align: center;
+}
+input {
+  padding-left: 15px;
+  width: 100%;
+  border-radius: 50px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+#signButton {
+  width: 25%;
+  background-color: black;
+  color: white;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#signButton:hover {
+  box-shadow: 0 0 9px 0px #000000;
+}
+#email-error,
+#pass-error {
+  color: red;
+  display: none;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="./product.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="top-nav" id="top">
+        <div class="nav-left">
+          <div class="logo">
+            <a class="logoLink" href="index.html">e-commerce name</a>
+          </div>
+          <!-- <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" />
+          </div> -->
+        </div>
+        <div class="nav-right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact Us</a>
+          <hr />
+          <p>Hi, <span id="userNameValue"></span></p>
+          <a href="shoppingCart.html" class="shoppingCart">
+            <div class="cartCounter"></div>
+            <i class="fas fa-shopping-cart"></i
+          ></a>
+          <a href="#account"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <main>
+          <div id="prodImg">
+            <img id="imgProd" alt="" />
+          </div>
+          <div id="descriotion">
+            <h1 id="prodName"></h1>
+            <span id="spanprice1"></span>
+            <!-- <span id="spanprice2"> $1499</span> -->
+
+            <!-- <div id="phone_descriotion">
+              <div class="first_row">
+                <div>
+                  <i id="font1" class="fa-solid fa-mobile-screen"></i>
+                  <p>
+                    <span class="spanopacity">screen size</span>
+                    <br />
+                    <span> "6.7</span>
+                  </p>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-desktop"></i>
+                  <p>
+                    <span class="spanopacity">cpu</span>
+                    <br />
+                    <span> Apple A16</span>
+                  </p>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-laptop"></i>
+                  <p>
+                    <span class="spanopacity">cores</span>
+                    <br />
+                    <span> 6</span>
+                  </p>
+                </div>
+              </div>
+              <div class="first_row">
+                <div>
+                  <i id="font1" class="fa-solid fa-mobile-screen"></i>
+                  <p>
+                    <span class="spanopacity">screen size</span>
+                    <br />
+                    <span> "6.7</span>
+                  </p>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-desktop"></i>
+                  <p>
+                    <span class="spanopacity">cpu</span>
+                    <br />
+                    <span> Apple A16</span>
+                  </p>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-laptop"></i>
+                  <p>
+                    <span class="spanopacity">cores</span>
+                    <br />
+                    <span> 6</span>
+                  </p>
+                </div>
+              </div>
+            </div> -->
+
+            <p id="paragraph_descriotion"></p>
+            <h4 id="prodRating"></h4>
+            <button id="button_add_to_card">Add To Card</button>
+
+            <div id="icon_affter_button">
+              <div>
+                <i class="fa-solid fa-truck"></i>
+                <p>
+                  <span class="icon_affter_button_span">free delivery</span>
+                  <br />
+                  <span> 1-2 day</span>
+                </p>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-hotel"></i>
+                <p>
+                  <span class="icon_affter_button_span">in stoke</span>
+                  <br />
+                  <span> today</span>
+                </p>
+              </div>
+
+              <div>
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>
+                  <span class="icon_affter_button_span">Guaranteed</span>
+                  <br />
+                  <span> 1 year</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <!-- <section>
+          <div>Details</div>
+          <hr />
+          <div>Screen</div>
+          <hr />
+          <p>Screen diagonal</p>
+          <hr />
+          <p>The screen resolution</p>
+          <hr />
+          <p>The screen refresh rate</p>
+          <hr />
+          <p>The pixel density</p>
+          <hr />
+          <p>Screen type</p>
+          <hr />
+          <div>Cpu</div>
+        </section> -->
+      </div>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span>e-commerce name</span>
+          </div>
+          <p class="footer-description">
+            We are a residential interior design firm located in Portland. Our
+            boutique-studio offers more than
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Bonus program</a></li>
+            <li><a href="#">Gift cards</a></li>
+            <li><a href="#">Credit and payment</a></li>
+            <li><a href="#">Service contracts</a></li>
+            <li><a href="#">Non-cash account</a></li>
+            <li><a href="#">Payment</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Assistance to the buyer</h3>
+          <ul>
+            <li><a href="#">Find an order</a></li>
+            <li><a href="#">Terms of delivery</a></li>
+            <li><a href="#">Exchange and return of goods</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Terms of use of the site</a></li>
+          </ul>
+        </div>
+        <div class="top-btn">
+          <a href="#top"></a>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./product.js" type="module"></script>
+  </body>
+</html>

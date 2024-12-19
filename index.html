@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav" id="top">
+        <div class="nav-left">
+          <div class="logo">
+            <a class="logoLink" href="#">e-commerce name</a>
+          </div>
+          <!-- <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" />
+          </div> -->
+        </div>
+        <div class="nav-right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact Us</a>
+          <hr />
+          <p>Hi, <span id="userNameValue"></span></p>
+          <a href="shoppingCart.html" class="shoppingCart">
+            <div class="cartCounter"></div>
+            <i class="fas fa-shopping-cart"></i
+          ></a>
+          <a href="#account"><i class="fa-solid fa-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="im-slider secImg">
+        <img class="img-slider" src="imgs/1.jpg" alt="" />
+        <img id="img2" src="imgs/2.jpg" alt="" />
+        <img id="img3" src="imgs/3.jpg" alt="" />
+        <img id="img4" src="imgs/4.jpg" alt="" />
+        <span class="btnContainer">
+          <button class="buttunBefore">&lt;</button>
+          <button class="buttunAfter">&gt;</button>
+        </span>
+      </section>
+      <section class="ourProdCat">
+        <h2 class="our-products">Our Products</h2>
+        <ul class="category-list">
+          <li>
+            <button class="catBtn">
+              <i class="fa-solid fa-table-cells-large catIcon"></i><br />All
+            </button>
+          </li>
+          <li>
+            <button class="catBtn">
+              <i class="fa-solid fa-person catIcon"></i>
+              <br />men's clothing
+            </button>
+          </li>
+          <li>
+            <button class="catBtn">
+              <i class="fa-solid fa-person-dress catIcon"></i>
+              <br />women's clothing
+            </button>
+          </li>
+          <li>
+            <button class="catBtn">
+              <i class="fa-regular fa-gem catIcon"></i>
+              <br />jewelery
+            </button>
+          </li>
+          <li>
+            <button class="catBtn">
+              <i class="fa-solid fa-microchip catIcon"></i> <br />electronics
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="products" id="prodContainer"></section>
+    </main>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span>e-commerce name</span>
+          </div>
+          <p class="footer-description">
+            We are a residential interior design firm located in Portland. Our
+            boutique-studio offers more than
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Bonus program</a></li>
+            <li><a href="#">Gift cards</a></li>
+            <li><a href="#">Credit and payment</a></li>
+            <li><a href="#">Service contracts</a></li>
+            <li><a href="#">Non-cash account</a></li>
+            <li><a href="#">Payment</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Assistance to the buyer</h3>
+          <ul>
+            <li><a href="#">Find an order</a></li>
+            <li><a href="#">Terms of delivery</a></li>
+            <li><a href="#">Exchange and return of goods</a></li>
+            <li><a href="#">Guarantee</a></li>
+            <li><a href="#">Frequently asked questions</a></li>
+            <li><a href="#">Terms of use of the site</a></li>
+          </ul>
+        </div>
+        <div class="top-btn">
+          <a href="#top"></a>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

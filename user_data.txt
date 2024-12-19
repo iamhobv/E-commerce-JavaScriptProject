@@ -1,0 +1,41 @@
+
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        
